@@ -13,6 +13,7 @@ import dalvik.system.BaseDexClassLoader;
  */
 
 public class HotFixManager {
+
     private Context context;
     private File dexDir;//dex文件包的路径
 
