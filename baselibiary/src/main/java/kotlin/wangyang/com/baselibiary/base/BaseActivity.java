@@ -5,10 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-
 import kotlin.wangyang.com.baselibiary.viewutils.ViewUtils;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 
 
 /**

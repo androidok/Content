@@ -7,7 +7,7 @@ public class MainActivity extends BaseSkinActivity {
 
     @Override
     protected void initView() {
-
+      int i =1/0;
     }
 
     @Override
@@ -22,6 +22,6 @@ public class MainActivity extends BaseSkinActivity {
 
     @Override
     public int initContentView() {
-        return 0;
+        return R.layout.activity_main;
     }
 }
