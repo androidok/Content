@@ -7,7 +7,7 @@ public class MainActivity extends BaseSkinActivity {
 
     @Override
     protected void initView() {
-      int i =1/0;
+   
     }
 
     @Override

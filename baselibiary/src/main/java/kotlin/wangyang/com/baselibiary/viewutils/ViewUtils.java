@@ -61,7 +61,7 @@ public class ViewUtils {
                             method.invoke(object,view);
                         } catch (Exception e) {
                             e.printStackTrace();
-                            invokeMethod(method, null);
+                            invokeMethod(method, object);
                         }
                     }
                 });
@@ -72,7 +72,7 @@ public class ViewUtils {
 
     private static void invokeMethod(Method method,Object object) {
         try {
-            method.invoke(object,null);
+            method.invoke(object);
         } catch (Exception e1) {
             e1.printStackTrace();
         }
