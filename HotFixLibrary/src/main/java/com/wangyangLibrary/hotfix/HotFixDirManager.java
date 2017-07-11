@@ -13,7 +13,7 @@ import java.io.FilenameFilter;
 
 /**
  * Created by wangyang on 2017/7/10.
- * des: 热修复文件夹管理器
+ * des: 热修复文件夹管理器，
  */
 
 public class HotFixDirManager {
