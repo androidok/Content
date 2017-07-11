@@ -2,6 +2,8 @@ package com.wangyang.contentscripts;
 
 import android.app.Application;
 
+import com.wangyangLibrary.hotfix.HotFixManager;
+
 import kotlin.wangyang.com.baselibiary.CrashExceptionHandler;
 
 /**
@@ -13,5 +15,11 @@ public class ContentApplication extends Application {
     public void onCreate() {
         super.onCreate();
         CrashExceptionHandler.getInstance().init(this);
+        try {
+            HotFixManager.init(this);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 }
