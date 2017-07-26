@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NoTitleDialog" parent="@android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否悬浮在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+
+    </style>
+    <style name="TransparentDialog" parent="NoTitleDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

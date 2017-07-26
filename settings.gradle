@@ -1,1 +1,1 @@
-include ':app', ':baselibiary', ':framelibrary', ':HotFixLibrary'
+include ':app', ':baselibiary', ':framelibrary', ':HotFixLibrary', ':dialoglibrary'
